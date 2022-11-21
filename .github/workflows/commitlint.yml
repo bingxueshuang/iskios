@@ -1,0 +1,26 @@
+name: 'Commit linter: Conventional Commits'
+
+# **What it does**: Check that all commit messages follow the standards
+# **Why we have it**: To be consistent regarding commit messages
+# **Who does it impact**: changelogs
+
+on: [push, pull_request]
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+
+        with:
+          node-version: 18.x
+
+      - name: Install
+        run: npm install @commitlint/config-conventional @commitlint/cli
+
+      - name: Lint commits
+        run: npm run commitlint
