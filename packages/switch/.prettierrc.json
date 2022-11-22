@@ -1,0 +1,14 @@
+{
+  "pluginSearchDirs": ["."],
+  "plugins": ["prettier-plugin-svelte"],
+  "trailingComma": "es5",
+  "svelteStrictMode": true,
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
+}

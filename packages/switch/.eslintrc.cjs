@@ -1,7 +1,8 @@
 module.exports = {
   extends: [
   	"eslint:recommended",
-  	"google"
+  	"google",
+  	"prettier"
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
