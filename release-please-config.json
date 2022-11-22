@@ -7,6 +7,10 @@
     ".": {
       "package-name": "iskios",
       "release-type": "node"
+    },
+    "packages/switch": {
+    	"package-name": "@iskios/switch",
+    	"release-type": "node"
     }
   }
 }
