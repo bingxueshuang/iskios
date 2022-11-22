@@ -1,0 +1,15 @@
+{
+  "bootstrap-sha": "647fd9d008fdb2b84dc3148f3c6039148ac96467",
+  "plugins": ["node-workspace"],
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": true,
+  "draft": true,
+  "skip-github-release": true,
+  "separate-pull-requests": true,
+  "packages": {
+    ".": {
+      "package-name": "iskios",
+      "release-type": "node"
+    }
+  }
+}
