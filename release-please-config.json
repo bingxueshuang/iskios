@@ -1,6 +1,8 @@
 {
   "bootstrap-sha": "647fd9d008fdb2b84dc3148f3c6039148ac96467",
-  "plugins": ["node-workspace"],
+  "plugins": [
+    "node-workspace"
+  ],
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
   "draft": true,
@@ -9,7 +11,13 @@
   "packages": {
     ".": {
       "package-name": "iskios",
-      "release-type": "node"
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "node",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
+      "draft": true,
+      "prerelease": false
     }
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
