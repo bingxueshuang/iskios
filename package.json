@@ -2,7 +2,7 @@
     "name": "iskios",
     "description": "ui library for the web",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
     "type": "module",
     "engines": {
         "node": ">=18",
@@ -19,9 +19,9 @@
     },
     "homepage": "https://github.com/bingxueshuang/iskios#readme",
     "scripts": {
-		"commitlint": "commitlint --to HEAD",
-		"commitlint:verbose": "commitlint -V --to HEAD",
-    	"devPreinstall": "husky install"
+        "commitlint": "commitlint --to HEAD",
+        "commitlint:verbose": "commitlint -V --to HEAD",
+        "devPreinstall": "husky install"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.2.0",
